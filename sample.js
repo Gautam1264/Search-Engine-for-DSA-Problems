@@ -40,6 +40,8 @@ var arr = [];
 var narr = [];
 var marr = [];
 
+const PORT = process.env.PORT || 3000 ;
+
 
 const dbURI = 'mongodb+srv://gautam:gautam@cluster0.lloum.mongodb.net/question_set?retryWrites=true&w=majority';
 
@@ -105,7 +107,7 @@ mongoose.connect(dbURI,{useNewUrlParser:true, useUnifiedTopology: true})
                 }
                 await time(3000) ;
                 console.log(amag);
-                app.listen(3000)
+                app.listen(PORT)
                 console.log('Complete') ;
             }catch(error){
                 console.log(error) ;
