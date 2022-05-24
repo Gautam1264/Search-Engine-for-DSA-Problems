@@ -1,0 +1,30 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+    <body>
+
+            <div class="questions content">
+                <h2>Search Results</h2>
+                
+                <% if (questions.length> 0) { %>
+                    <% questions.forEach(question=> { %>
+                        
+                        <div class = "res-que">
+                            <a target="_blank" href= "/details/<%= question._id %>" >
+                            <h3 class="title">
+                                <%= question.title %>
+                            </h3>
+                            </a>
+                            <p class="snippet">
+                                <%= question.snippet %>
+                            </p>
+                        </div>
+                        <% }) %>
+                            <% } else { %>
+                                <p>There are no questions to display...</p>
+                                <% } %> 
+                
+            </div>
+    </body>
+
+</html>

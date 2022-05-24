@@ -1,0 +1,1 @@
+b'Given an integer array nums, find three numbers whose product is maximum and return the maximum product.\n\xc2\xa0\nExample 1:\nInput: nums = [1,2,3]\nOutput: 6\nExample 2:\nInput: nums = [1,2,3,4]\nOutput: 24\nExample 3:\nInput: nums = [-1,-2,-3]\nOutput: -6\n\n\xc2\xa0\nConstraints:\n\n3 <= nums.length <=\xc2\xa0104\n-1000 <= nums[i] <= 1000\n\n'

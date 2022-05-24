@@ -1,0 +1,1 @@
+b'Given the head of a linked\xc2\xa0list, rotate the list to the right by k places.\n\xc2\xa0\nExample 1:\n\nInput: head = [1,2,3,4,5], k = 2\nOutput: [4,5,1,2,3]\n\nExample 2:\n\nInput: head = [0,1,2], k = 4\nOutput: [2,0,1]\n\n\xc2\xa0\nConstraints:\n\nThe number of nodes in the list is in the range [0, 500].\n-100 <= Node.val <= 100\n0 <= k <= 2 * 109\n\n'

@@ -1,0 +1,1 @@
+b'Given the head of a singly linked list, return true if it is a palindrome.\n\xc2\xa0\nExample 1:\n\nInput: head = [1,2,2,1]\nOutput: true\n\nExample 2:\n\nInput: head = [1,2]\nOutput: false\n\n\xc2\xa0\nConstraints:\n\nThe number of nodes in the list is in the range [1, 105].\n0 <= Node.val <= 9\n\n\xc2\xa0\nFollow up: Could you do it in O(n) time and O(1) space?'

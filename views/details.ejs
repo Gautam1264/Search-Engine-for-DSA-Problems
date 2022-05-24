@@ -1,0 +1,24 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+    <body>
+        <div class="whole-page">
+        <div class="questions content">
+            <h1 class="dhead">Problem Details</h1>
+            
+            <% for( var i=0 ; i<(det.st).length ; i++ ) { %>
+                <% if( det.st[i] == '  '){ %>
+                    <br>
+                <% }else{ %>
+                    <p><%= det.st[i] %></p>
+                <% } %>
+            <% } %>
+            
+        </div>
+        <br><br>
+        <p>For more details, <a href="<%= det.re%>" target="_blank" class="dlink">click</a> here </p>
+        </div>
+        
+    </body>
+
+</html>

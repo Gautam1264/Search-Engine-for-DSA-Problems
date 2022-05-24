@@ -1,0 +1,1 @@
+b'Given an integer n, return the largest palindromic integer that can be represented as the product of two n-digits integers. Since the answer can be very large, return it modulo 1337.\n\xc2\xa0\nExample 1:\nInput: n = 2\nOutput: 987\nExplanation: 99 x 91 = 9009, 9009 % 1337 = 987\n\nExample 2:\nInput: n = 1\nOutput: 9\n\n\xc2\xa0\nConstraints:\n\n1 <= n <= 8\n\n'

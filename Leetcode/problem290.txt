@@ -1,0 +1,1 @@
+b'Given a string s, reverse only all the vowels in the string and return it.\nThe vowels are \'a\', \'e\', \'i\', \'o\', and \'u\', and they can appear in both cases.\n\xc2\xa0\nExample 1:\nInput: s = "hello"\nOutput: "holle"\nExample 2:\nInput: s = "leetcode"\nOutput: "leotcede"\n\n\xc2\xa0\nConstraints:\n\n1 <= s.length <= 3 * 105\ns consist of printable ASCII characters.\n\n'

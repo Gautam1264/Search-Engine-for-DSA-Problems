@@ -1,0 +1,1 @@
+b'Given a string s, rearrange the characters of s so that any two adjacent characters are not the same.\nReturn any possible rearrangement of s or return "" if not possible.\n\xc2\xa0\nExample 1:\nInput: s = "aab"\nOutput: "aba"\nExample 2:\nInput: s = "aaab"\nOutput: ""\n\n\xc2\xa0\nConstraints:\n\n1 <= s.length <= 500\ns consists of lowercase English letters.\n\n'

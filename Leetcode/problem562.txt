@@ -1,0 +1,1 @@
+b'Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.\n\xc2\xa0\nExample 1:\nInput: s = "Hello"\nOutput: "hello"\n\nExample 2:\nInput: s = "here"\nOutput: "here"\n\nExample 3:\nInput: s = "LOVELY"\nOutput: "lovely"\n\n\xc2\xa0\nConstraints:\n\n1 <= s.length <= 100\ns consists of printable ASCII characters.\n\n'

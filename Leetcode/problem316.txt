@@ -1,0 +1,1 @@
+b'Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.\n\xc2\xa0\nExample 1:\nInput: s = "leetcode"\nOutput: 0\nExample 2:\nInput: s = "loveleetcode"\nOutput: 2\nExample 3:\nInput: s = "aabb"\nOutput: -1\n\n\xc2\xa0\nConstraints:\n\n1 <= s.length <= 105\ns consists of only lowercase English letters.\n\n'

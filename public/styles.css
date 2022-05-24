@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+body {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-family: 'Noto Serif', serif;
+    max-width: 1200px;
+}
+
+.search-bar{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 25%;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    height: 28px;
+    width: 80px;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+#que{
+    width: 50%;
+    height: 60px;
+}
+
+.res-que{
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.res-que:hover {
+    box-shadow: 2px 2px 2px 2px darkgray;
+}
+
+a{
+    color: blue;
+}
+
+a:hover{
+    color: black;
+}
+
+a:visited {
+    color: none;
+}
+
+.dhead{
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.whole-page{
+    border: 1px solid black;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: azure ;
+    color: black;
+}
+
+.dlink{
+    color: black;
+}
+

@@ -1,0 +1,1 @@
+b'You are given an integer n. We reorder the digits in any order (including the original order) such that the leading digit is not zero.\nReturn true if and only if we can do this so that the resulting number is a power of two.\n\xc2\xa0\nExample 1:\nInput: n = 1\nOutput: true\n\nExample 2:\nInput: n = 10\nOutput: false\n\n\xc2\xa0\nConstraints:\n\n1 <= n <= 109\n\n'

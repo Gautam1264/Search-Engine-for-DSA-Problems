@@ -1,0 +1,1 @@
+b'Given an integer num, return a string of its base 7 representation.\n\xc2\xa0\nExample 1:\nInput: num = 100\nOutput: "202"\nExample 2:\nInput: num = -7\nOutput: "-10"\n\n\xc2\xa0\nConstraints:\n\n-107 <= num <= 107\n\n'

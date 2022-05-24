@@ -1,0 +1,1 @@
+b'Given an integer n, add a dot (".") as the thousands separator and return it in string format.\n\xc2\xa0\nExample 1:\nInput: n = 987\nOutput: "987"\n\nExample 2:\nInput: n = 1234\nOutput: "1.234"\n\n\xc2\xa0\nConstraints:\n\n0 <= n <= 231 - 1\n\n'

@@ -1,0 +1,1 @@
+b'Given an integer n, count the total number of digit 1 appearing in all non-negative integers less than or equal to n.\n\xc2\xa0\nExample 1:\nInput: n = 13\nOutput: 6\n\nExample 2:\nInput: n = 0\nOutput: 0\n\n\xc2\xa0\nConstraints:\n\n0 <= n <= 109\n\n'

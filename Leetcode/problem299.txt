@@ -1,0 +1,1 @@
+b'Given a positive integer num, write a function which returns True if num is a perfect square else False.\nFollow up: Do not use any built-in library function such as sqrt.\n\xc2\xa0\nExample 1:\nInput: num = 16\nOutput: true\nExample 2:\nInput: num = 14\nOutput: false\n\n\xc2\xa0\nConstraints:\n\n1 <= num <= 2^31 - 1\n\n'

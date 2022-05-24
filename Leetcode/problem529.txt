@@ -1,0 +1,1 @@
+b'You are given an integer num. You can swap two digits at most once to get the maximum valued number.\nReturn the maximum valued number you can get.\n\xc2\xa0\nExample 1:\nInput: num = 2736\nOutput: 7236\nExplanation: Swap the number 2 and the number 7.\n\nExample 2:\nInput: num = 9973\nOutput: 9973\nExplanation: No swap.\n\n\xc2\xa0\nConstraints:\n\n0 <= num <= 108\n\n'
