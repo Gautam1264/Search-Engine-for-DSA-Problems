@@ -284,14 +284,18 @@ app.post('/search-result',(req,res)=>{
 app.get('/details/:id',(req,res)=>{
     var id = req.params.id ;
     id++ ;
-    fs.readFile('./Leetcode/problem'+(id).toString()+'.txt', (err,data)=>{
+    var ch1 = '1' ;
+    if( id>900 ){
+        ch1 = '2' ;
+    }
+    fs.readFile('./Leetcode'+ch1+'/problem'+(id).toString()+'.txt', (err,data)=>{
         if(err){
             console.log(err);
         }else{
             var old = data.toString().substring(2,data.toString().length-1).replaceAll('\\xc2'," ").replaceAll('\\xa0'," ").split('\\n') ;
             //console.log(old) ;
             
-            Question.findById(id)
+            Question.findById(id-1)
                 .then((result)=>{
                     var link = result.link.toString() ;
                     res.render('details',{title:'Details of the question' , det : { "st" : old , "re" : link } });
