@@ -96,16 +96,16 @@ mongoose.connect(dbURI,{useNewUrlParser:true, useUnifiedTopology: true})
             try{
                 await time(3000) ;
                 a1() ;
-                await time(3000) ;
+                await time(2000) ;
                 a2() ;
-                await time(3000) ;
+                await time(2000) ;
                 a3() ;
-                await time(15000) ;
+                await time(10000) ;
                 amag = 0 ;
                 for( var i=0 ; i<1791 ; i++ ){
                     amag += mag[i]/1791 ; 
                 }
-                await time(3000) ;
+                //await time(3000) ;
                 console.log(amag);
                 app.listen(PORT)
                 console.log('Complete') ;
@@ -240,9 +240,9 @@ app.post('/search-result',(req,res)=>{
                 
                 //console.log(Idf[TFIDF_index[l][m]]);
                 //console.log(amag);
-                var ans = Idf[TFIDF_index[l][m]]*TFIDF_value[l][m]*3 ;
+                var ans = Idf[TFIDF_index[l][m]]*TFIDF_value[l][m]*2 ;
                 //console.log(ans) ;
-                var ans1 = 2*(0.25+0.75*(mag[l]/amag)) + TFIDF_value[l][m] ; 
+                var ans1 = 1*(0.2+0.8*(mag[l]/amag)) + TFIDF_value[l][m] ; 
                 //console.log(ans1) ;
                 ans = ans/ans1 ;
                 //console.log(ans) ;
@@ -263,6 +263,7 @@ app.post('/search-result',(req,res)=>{
         //console.log(index,sorted[index]) ;
         if( sorted[index] == 0 ){
             c++ ;
+            continue ; 
         }
         sorted[index] = -1 ;
         arr.push(index) ;
